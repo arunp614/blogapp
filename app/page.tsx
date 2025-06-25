@@ -39,25 +39,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto mb-20">
-        <h2 className="text-3xl font-bold text-center mb-10 text-blue-600">Latest Posts</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[1, 2, 3].map((i) => (
-            <div
-              key={i}
-              className="border rounded-xl p-5 hover:shadow-md transition bg-white"
-            >
-              <h3 className="text-lg font-semibold mb-2">Blog Title #{i}</h3>
-              <p className="text-sm text-gray-600">
-                A short excerpt from the blog post goes here. Keep it snappy and inviting.
-              </p>
-              <Link href="#" className="text-blue-600 mt-2 inline-block text-sm hover:underline">
-                Read More →
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
+      
         <Subscribe/>
       
     </div>

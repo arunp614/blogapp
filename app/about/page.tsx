@@ -32,23 +32,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="max-w-4xl mx-auto mt-16">
-        <h2 className="text-2xl font-bold text-center text-blue-600 mb-6">What We Cover</h2>
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <li className="bg-blue-50 rounded-xl py-6 px-4 shadow-sm">
-            <h3 className="text-lg font-semibold mb-2">Productivity</h3>
-            <p className="text-gray-600 text-sm">Tips, tools, and time management strategies</p>
-          </li>
-          <li className="bg-blue-50 rounded-xl py-6 px-4 shadow-sm">
-            <h3 className="text-lg font-semibold mb-2">Wellness</h3>
-            <p className="text-gray-600 text-sm">Mindfulness, mental clarity, healthy routines</p>
-          </li>
-          <li className="bg-blue-50 rounded-xl py-6 px-4 shadow-sm">
-            <h3 className="text-lg font-semibold mb-2">Tech & Tools</h3>
-            <p className="text-gray-600 text-sm">Apps, gear, and digital minimalism</p>
-          </li>
-        </ul>
-      </section>
     </div>
   );
 }
